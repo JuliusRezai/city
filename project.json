@@ -1,0 +1,202 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 213,
+    "major": 5,
+    "minor": 4,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "1042f6a4-f637-4067-8075-1905f84b6979",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Prototype",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 144,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/bb0e006c-e545-44af-bc2e-5af8a675500e/resources/9fe457a879a6e95b3b9cba935717325c9cc035fc8e87f6a17255c8a47cb875b0-grass.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/roadUP.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "roadUP.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/bb0e006c-e545-44af-bc2e-5af8a675500e/resources/b54c3bbcfb394390662a05652bc4b39b09f540c9b3c130d51ac12b204e635aec-roadUP.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/selectTile.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "selectTile.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/bb0e006c-e545-44af-bc2e-5af8a675500e/resources/d9efd9879d49ccdf6a429507bf61d212b14c7c099158578e01c0106b8f9b03a8-selectTile.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/model.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "model.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/bb0e006c-e545-44af-bc2e-5af8a675500e/resources/733df74a12ce90e03168d3a25a5a492f264bbdab6af92747c915cd8ab28c9f09-model.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/grass3d.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "grass3d.glb",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/bb0e006c-e545-44af-bc2e-5af8a675500e/resources/a9c40b006d072fc7efe97b77db9c92cb9d225694dc257eed3bb291162f7e98c7-grass3d.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/eb4edad2c3c752116fd28898f6bf0ae8dd0ab73b5cca111dbbd1e541c92dc393_Grey Button With Shadow_Hovered.png",
+          "name": "Grey Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7a8f60c5db6936e591235ae6ef3eca1c856c61adcc8d2a059e4e408804ebc477_Grey Button With Shadow_Idle.png",
+          "name": "Grey Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/907400b52ad729d17d819ce65fcedcc7819a07bbf18d106029ef4e7fbfb14d42_Grey Button With Shadow_Pressed.png",
+          "name": "Grey Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
