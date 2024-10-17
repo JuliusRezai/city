@@ -59,12 +59,29 @@
       ]
     },
     {
+      "folded": true,
+      "name": "CurrentQuestion",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "CurrentQuestionIndex",
+      "type": "number",
+      "value": -1
+    },
+    {
+      "folded": true,
+      "name": "QuestionHasBeenAnswered",
+      "type": "boolean",
+      "value": true
+    },
+    {
       "name": "CurrentOptions",
       "type": "array",
       "children": []
     },
     {
-      "folded": true,
       "name": "CityStats",
       "type": "structure",
       "children": [
@@ -83,6 +100,12 @@
           "name": "Money",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Score",
+          "type": "number",
+          "value": 0
         }
       ]
     },
@@ -93,50 +116,187 @@
       "value": 100
     },
     {
-      "name": "AvailableOptions",
+      "name": "questions",
       "type": "structure",
       "children": [
         {
-          "name": "BuildCheapHouse",
-          "type": "structure",
+          "name": "Din stad behöver fler bostäder. Hur ser du till att de är hållbara och inkluderande?",
+          "type": "array",
           "children": [
             {
-              "name": "Cost",
-              "type": "number",
-              "value": 10000
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Kollektivtrafik som elbussar och spårvagnar"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 2
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
             },
             {
-              "folded": true,
-              "name": "DisplayName",
-              "type": "string",
-              "value": "Build a cheap house"
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Fler bilvägar"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Trottoarer för gång- och cykelbanor"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
             }
           ]
         },
         {
-          "name": "DestroyBuilding",
-          "type": "structure",
+          "name": "Fler transportsätt måste finnas för invånarna, vad prioriteras?",
+          "type": "array",
           "children": [
             {
-              "name": "Cost",
-              "type": "number",
-              "value": 1000
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg endast lyxbostäder i centrala områden."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
             },
             {
-              "folded": true,
-              "name": "DisplayName",
-              "type": "string",
-              "value": "Destroy a building"
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg energieffektiva och prisvärda bostäder för alla."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg snabbt och billigt utan hänsyn till kvalitet eller tillgänglighet."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vad är FN mål 11 främst inriktat mot?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Att minska på klimatförändringar."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Att öka fattigdomen"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -1
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Att skapa hållbara städer och samhällen"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 2
+                }
+              ]
             }
           ]
         }
       ]
-    },
-    {
-      "folded": true,
-      "name": "OptionsToBeAdded",
-      "type": "array",
-      "children": []
     },
     {
       "name": "tmp",
@@ -412,9 +572,9 @@
       "variables": [
         {
           "folded": true,
-          "name": "OptionIdentifier",
-          "type": "string",
-          "value": "0"
+          "name": "OptionNumber",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -631,22 +791,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Add initial options"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PushString"
-              },
-              "parameters": [
-                "OptionsToBeAdded",
-                "\"BuildCheapHouse\""
-              ]
-            }
-          ]
+          "comment": "Add initial question"
         }
       ]
     },
@@ -727,7 +872,6 @@
       "comment": "Tile placement:"
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -800,7 +944,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -901,6 +1044,16 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "QuestionHasBeenAnswered",
+                "True",
+                ""
+              ]
             }
           ]
         }
@@ -945,114 +1098,11 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Add option (from OptionsToBeAdded array):"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "tmp.number",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEachChildVariable",
-      "iterableVariableName": "OptionsToBeAdded",
-      "valueIteratorVariableName": "tmp.text",
-      "keyIteratorVariableName": "",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "OptionButton",
-            "100",
-            "350+100*Variable(tmp.number)",
-            "\"UI\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
-          },
-          "parameters": [
-            "OptionButton",
-            "AvailableOptions[tmp.text].DisplayName + \" (\" + AvailableOptions[tmp.text].Cost + \"£)\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "OptionButton",
-            "OptionIdentifier",
-            "=",
-            "tmp.text"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "tmp.number",
-            "+",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ClearVariableChildren"
-          },
-          "parameters": [
-            "OptionsToBeAdded"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Handle option logic:"
+      "comment": "Handle questions:"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsActivated"
-          },
-          "parameters": [
-            "OptionButton",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
@@ -1070,33 +1120,22 @@
           "conditions": [
             {
               "type": {
-                "value": "StringObjectVariable"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "OptionButton",
-                "OptionIdentifier",
-                "=",
-                "\"BuildCheapHouse\""
+                "questions[CurrentQuestion][OptionButton.OptionNumber].special",
+                "True",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "TileToBePlaced",
-                "=",
-                "\"BasicHouse\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "OptionHasHappened",
+                "Special",
                 "True",
                 ""
               ]
@@ -1111,8 +1150,8 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "OptionHasHappened",
-                "True",
+                "Special",
+                "=",
                 ""
               ]
             }
@@ -1120,12 +1159,74 @@
           "actions": [
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "QuestionHasBeenAnswered",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "CityStats.Money",
-                "-",
-                "AvailableOptions[OptionButton.OptionIdentifier].Cost"
+                "CityStats.Score",
+                "+",
+                "questions[CurrentQuestion][OptionButton.OptionNumber].score"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
+                "\"Din stad behöver fler bostäder. Hur ser du till att de är hållbara och inkluderande?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"BasicHouse\""
+                  ]
+                }
               ]
             }
           ]
@@ -1134,7 +1235,262 @@
       "variables": [
         {
           "folded": true,
-          "name": "OptionHasHappened",
+          "name": "Special",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Get new question"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "QuestionHasBeenAnswered",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "OptionButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentQuestionIndex",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "tmp.number",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "SetQuestion",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEachChildVariable",
+          "iterableVariableName": "questions",
+          "valueIteratorVariableName": "child",
+          "keyIteratorVariableName": "tmp.text",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "tmp.number",
+                    "=",
+                    "CurrentQuestionIndex"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CurrentQuestion",
+                    "=",
+                    "tmp.text"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "SetQuestion",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "tmp.number",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "SetQuestion",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "OptionTitle",
+                "=",
+                "\"you did it, score: \" + CityStats.Score"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "SetQuestion",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "OptionTitle",
+                "=",
+                "CurrentQuestion"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "QuestionHasBeenAnswered",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEachChildVariable",
+              "iterableVariableName": "questions[CurrentQuestion]",
+              "valueIteratorVariableName": "child",
+              "keyIteratorVariableName": "tmp.number",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "OptionButton",
+                    "100",
+                    "450+tmp.number*200",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "questions[CurrentQuestion][tmp.number].name",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "tmp.number"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "folded": true,
+          "name": "SetQuestion",
           "type": "boolean",
           "value": false
         }
