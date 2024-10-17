@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.25504554733544893,
+    "zoomFactor": 0.26364576737709616,
     "windowMask": false
   },
   "objectsGroups": [
@@ -120,6 +120,65 @@
       "type": "structure",
       "children": [
         {
+          "folded": true,
+          "name": "Det finns brist på kultur och fritidsaktiviteter i din stad. Vad bygger du?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Ett kulturcenter med bibliotek, teater och konstutställningar"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "En biograf för underhållning och filmvisningar "
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Ett kasino som lockar besökare men skapar sociala problem"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
           "name": "Din stad behöver fler bostäder. Hur ser du till att de är hållbara och inkluderande?",
           "type": "array",
           "children": [
@@ -183,6 +242,239 @@
           ]
         },
         {
+          "folded": true,
+          "name": "Din stad behöver fler offentliga platser där invånarna kan mötas. Vad bygger du?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "En fritidsgård där unga och äldre kan samlas"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Ett köpcentrum för shopping och umgänge"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Ett kontor för fler arbetsplatser"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Din stad har ont om grönområden, hur hanterar du detta?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg en stor park i stadens centrum"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Plantera några träd längs huvudgatorna"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Använd marken till fler parkeringsplatser istället"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Din stad saknar tillgång till förnybar energi. Vad bygger du?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg en solcellspark för att producera ren energi"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg en vindkraftspark nära stadens utkanter"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg ett kolkraftverk för att snabbt lösa energibehovet"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Dina invånare börjar bli sjuka och behöver vård. Vart väljer du att bygga sjukhuset?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Du bygger sjukhuset vid en skog långt borta från alla dina invånare. "
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Du bygger sjukhuset ganska centralt, där alla bussar och hela kollektivtrafik når snabbt."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Du bygger sjukhuset vid en industriområde där luftnivån är inte bra för dina invånare."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
           "name": "Fler transportsätt måste finnas för invånarna, vad prioriteras?",
           "type": "array",
           "children": [
@@ -240,6 +532,65 @@
           ]
         },
         {
+          "folded": true,
+          "name": "Hur kan städer anpassa sig för att hantera klimatförändringar?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Genom att förneka klimatförändringarna och fortsätta som vanligt."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -2
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Genom att bygga grön infrastruktur och satsa på förnybar energi."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Genom att använda mer fossila bränslen för att stödja tillväxt."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
           "name": "Vad är FN mål 11 främst inriktat mot?",
           "type": "array",
           "children": [
@@ -345,12 +696,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "stats",
-      "persistentUuid": "364e272e-8b60-4095-8bb8-fca7743bf101",
+      "name": "OptionTitle",
+      "persistentUuid": "71272f7a-724d-4ba6-b570-58efa3ff19f4",
       "width": 0,
       "x": 100,
       "y": 100,
-      "zOrder": 5,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -360,13 +711,280 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "UI",
-      "name": "OptionTitle",
-      "persistentUuid": "71272f7a-724d-4ba6-b570-58efa3ff19f4",
+      "layer": "road and house",
+      "name": "RoadCurve",
+      "persistentUuid": "cb2a1035-e205-4d3a-8182-aacf3da15f85",
       "width": 0,
-      "x": 100,
-      "y": 300,
-      "zOrder": 7,
+      "x": 400,
+      "y": 0,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "flippedX": true,
+      "flippedY": true,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadBend",
+      "persistentUuid": "fd34b3f9-8158-442b-a234-4aff18ab1e5b",
+      "width": 0,
+      "x": 600,
+      "y": 100,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "flippedX": true,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadIntersectionPath",
+      "persistentUuid": "ab170579-67c0-4db2-ac4f-e427097d52b6",
+      "width": 0,
+      "x": 600,
+      "y": 200,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadStraight",
+      "persistentUuid": "864d1759-3821-4c91-a1f0-fb6ad63285e1",
+      "width": 500,
+      "x": 700,
+      "y": 200,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadEndRound",
+      "persistentUuid": "4fd97503-501d-474f-b7a2-85bc62f17e9e",
+      "width": 0,
+      "x": 1600,
+      "y": 200,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadCrossing",
+      "persistentUuid": "14e5d196-92f8-4ae7-8e14-701d2fb3e3f3",
+      "width": 0,
+      "x": 1200,
+      "y": 200,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadStraight",
+      "persistentUuid": "e05eaaae-c426-4397-9c66-51db07243975",
+      "width": 300,
+      "x": 1300,
+      "y": 200,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 2,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadStraight",
+      "persistentUuid": "8ecabc3f-35f7-4d93-9d80-9d2ea21f9cbd",
+      "width": 200,
+      "x": 550,
+      "y": 350,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadIntersectionPath",
+      "persistentUuid": "862827c6-f018-4ce0-b274-bf1dc9bcd82c",
+      "width": 0,
+      "x": 600,
+      "y": 500,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadStraight",
+      "persistentUuid": "e343a100-e9d1-4d03-9f46-f3d952101267",
+      "width": 300,
+      "x": 1300,
+      "y": 500,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadEndRound",
+      "persistentUuid": "6191defd-b868-4b9c-8a15-5891c00ac51c",
+      "width": 0,
+      "x": 1600,
+      "y": 500,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadCurve",
+      "persistentUuid": "24d2f701-ec4f-4506-bd63-144453db2209",
+      "width": 0,
+      "x": 400,
+      "y": 500,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 2,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadStraight",
+      "persistentUuid": "2ce3108e-fbb2-42b0-a5ee-56b40b4710d2",
+      "width": 400,
+      "x": 250,
+      "y": 850,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadCrossing",
+      "persistentUuid": "77df79f4-e608-4291-862e-f549329c261e",
+      "width": 0,
+      "x": 1200,
+      "y": 500,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadStraight",
+      "persistentUuid": "768c38ae-e8c4-442f-8f35-18abadbe5e83",
+      "width": 500,
+      "x": 700,
+      "y": 500,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 27.33962383915989,
+      "height": 30.377359821288746,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "Van",
+      "persistentUuid": "80f908c2-b271-42a9-a000-31e21c398928",
+      "width": 53.666667600000025,
+      "x": 1000,
+      "y": 263,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 47,
+      "height": 194,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "park",
+      "persistentUuid": "6b082c07-70d7-45f0-9fe8-22f9e31272a8",
+      "width": 300,
+      "x": 1052,
+      "y": 694,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -654,19 +1272,456 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "3f9553cd8a1834a4def88190fee9c752cfa3101abcdbdf02ae92e8ed41f3c679",
+      "name": "RoadCrossing",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road Crossing.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ae09642f549122b398405ffda9bd787c20f0fdfcb555a4535c710a3f218c8130",
+      "name": "RoadCrossroadPath",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road Crossroad Path.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "926094ec71843f855330cd4e873358f4c21842d452515a77b2414be6c012bee4",
+      "name": "RoadEndRound",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road End Round.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "5c29b04baec5b7b6cb3538480ce4d17daee4c68205097e67928c433e7c9f8ec1",
+      "name": "RoadCurve",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 300,
+        "height": 300,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road Curve.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 200,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "79a334f5403b6c2daa0625e37c715ede02c9283c06721ee917767f36efff8570",
+      "name": "RoadBend",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road Bend.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "fad6af3a34db69705540270898681716e47359bbb1b474b27104f823098ef0aa",
+      "name": "RoadIntersectionPath",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road Intersection Path.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "efc4370ffaa9c58cdd169335fc9b8e59a18d87ecbd56c604d3c64763ee90a516",
+      "name": "House2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 80.30487808346751,
+        "height": 84.6497,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 99.99869652330875,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "edb1e4c19dfe590ce2d1c1675e5c8ec467f72af3c17ad6430d1c423e0ff48ed7",
+      "name": "hospital",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 266,
+        "height": 300,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Building 2 Large.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 300,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "b1cf41511a76cbf9e17bdf92630a9d6b6b2f8117a9a339aa687d14a0dafa07d6",
+      "name": "HouseMansion",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 98.06037428105626,
+        "height": 119.34665074570418,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 78.85927170951604,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "268866cf9c73398e89de7ac4b60cc3efe6d3a5f562a08ff1ba0e1906a148ed90",
+      "name": "tree",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 451,
+        "height": 451,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Birch Tree 5.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 451,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "269005e01ce3e16c3e695f797677e19c575d56d0a67a09f8c03140d377eb9e17",
+      "name": "park",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 236,
+        "height": 236,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Resource Tree Group.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "3c50d0dff56cc0b614a5a717571316fa97ada8e6f6b005cd215870035db34f85",
+      "name": "buss_typ_",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 60,
+        "height": 60,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Car Hatchback.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 60,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "0d7e7a700fe654df077830ff50844449cdaddbb46dbe23de65f970569e6a983b",
+      "name": "Van",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 79,
+        "height": 79,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Van.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 79,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c59cd90ceb33ab66d51493bf85ba48566379018bf6ff5216c0f1aae7220b5fa0",
+      "name": "RoadDrivewaySingle",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road Driveway Single.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "addf80cdad80596f8eb0690b6240ade70efe84de1f0f2b44ff5f303bbc2f1e5f",
+      "name": "parking",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tile Low.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "bbdd1d6c7d452e1847310eb327cddabe057cb893886f3a7a1af1c38e353eac92",
+      "name": "RoadStraight",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road Straight.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "74715faacda851af2c61ef1dda6d6c29d7041c37e634f132c47371d8237880b8",
+      "name": "Mill",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 288,
+        "height": 288,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Mill.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 288,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+        "folderName": "misk",
+        "children": [
+          {
+            "objectName": "Van"
+          },
+          {
+            "objectName": "buss_typ_"
+          },
+          {
+            "objectName": "park"
+          },
+          {
+            "objectName": "tree"
+          }
+        ]
+      },
+      {
+        "folderName": "house",
+        "children": [
+          {
+            "objectName": "BasicHouse"
+          },
+          {
+            "objectName": "HouseMansion"
+          },
+          {
+            "objectName": "hospital"
+          },
+          {
+            "objectName": "House2"
+          }
+        ]
+      },
+      {
+        "folderName": "road",
+        "children": [
+          {
+            "objectName": "RoadStraight"
+          },
+          {
+            "objectName": "parking"
+          },
+          {
+            "objectName": "RoadDrivewaySingle"
+          },
+          {
+            "objectName": "RoadIntersectionPath"
+          },
+          {
+            "objectName": "RoadBend"
+          },
+          {
+            "objectName": "RoadCurve"
+          },
+          {
+            "objectName": "RoadEndRound"
+          },
+          {
+            "objectName": "RoadCrossroadPath"
+          },
+          {
+            "objectName": "RoadCrossing"
+          }
+        ]
+      },
+      {
         "objectName": "Background"
       },
       {
         "objectName": "ImageTile"
-      },
-      {
-        "objectName": "BasicHouse"
       },
       {
         "objectName": "Grass"
@@ -679,6 +1734,9 @@
       },
       {
         "objectName": "OptionButton"
+      },
+      {
+        "objectName": "Mill"
       }
     ]
   },
@@ -696,6 +1754,7 @@
       "comment": "Setup:"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -872,6 +1931,7 @@
       "comment": "Tile placement:"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1072,6 +2132,7 @@
       "comment": "UI:"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -1228,6 +2289,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         }
@@ -1458,7 +2524,7 @@
                     "OptionButton",
                     "100",
                     "450+tmp.number*200",
-                    ""
+                    "\"UI\""
                   ]
                 },
                 {
@@ -1524,6 +2590,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "road and house",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

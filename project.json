@@ -174,6 +174,282 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
           "name": "CantoraOne-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/Road Crossing.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Crossing.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/f779655df69ebcabbcc9ee5bc194376ae12f60851ba76108644db935665a2d19_Road Crossing.glb",
+          "name": "Road Crossing.glb"
+        }
+      },
+      {
+        "file": "assets/Road Crossroad Path.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Crossroad Path.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/002f076f02776d316382227980bfd080c3c30c663c7846f6f4207a006735ae7c_Road Crossroad Path.glb",
+          "name": "Road Crossroad Path.glb"
+        }
+      },
+      {
+        "file": "assets/Road End Round.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road End Round.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/52f097bcd17e309ea9b2188b6f48f63026def9bd57d3342961f245a71be78d4f_Road End Round.glb",
+          "name": "Road End Round.glb"
+        }
+      },
+      {
+        "file": "assets/Road Curve.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Curve.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/7b98f79d7fd583d48bffb51ebda2ebb4230d0beb6a8b662dfd1ee075b5b9c974_Road Curve.glb",
+          "name": "Road Curve.glb"
+        }
+      },
+      {
+        "file": "assets/Road Bend.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Bend.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/12e5d612ecde68cdda96d3e48b7c7de88221b35721c4af03607eecbf691d9f99_Road Bend.glb",
+          "name": "Road Bend.glb"
+        }
+      },
+      {
+        "file": "assets/Road Intersection Path.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Intersection Path.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/b9771937f69cff0ec5a74cf13ded2017b02b25294684c87bbbf5ca44519f2a51_Road Intersection Path.glb",
+          "name": "Road Intersection Path.glb"
+        }
+      },
+      {
+        "file": "assets/Road Roundabout.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Roundabout.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/25bec05efb7c079c4be3e21141bf020958e73b234108eface20cfbc6f084c609_Road Roundabout.glb",
+          "name": "Road Roundabout.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hospital_damaged left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hospital_damaged left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/9e7998fb75b731d141a3aa2aa6fbdd48dde0d20899fb1dcf6e2fa8db00831b72_hospital_damaged left.png",
+          "name": "hospital_damaged left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hospital_damaged right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hospital_damaged right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/72428ecab13aa12e5c0d088c9fe1895b12432a6de02a25451ede8920a475a25f_hospital_damaged right.png",
+          "name": "hospital_damaged right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hospital_normal left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hospital_normal left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/72070f85f9173984074da030251ef1a6d7268df3e25a30cf19119776c35ca008_hospital_normal left.png",
+          "name": "hospital_normal left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hospital_normal right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hospital_normal right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/b07f45b8844b6850abfc9fea8b4e384099172c9eb8b88eb8b88a4d31784a3f3c_hospital_normal right.png",
+          "name": "hospital_normal right.png"
+        }
+      },
+      {
+        "file": "assets/House 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Classical Buildings/3f510d86d9547d9ea157b83305a3f64ddd4e360e794ce9b85e1148f1248d04eb_House 2.glb",
+          "name": "House 2.glb"
+        }
+      },
+      {
+        "file": "assets/Building 2 Large.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Building 2 Large.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Classical Buildings/463a0365955884f81a7affd87ba41ce545df0f2ea16c676e1de179eff70728e4_Building 2 Large.glb",
+          "name": "Building 2 Large.glb"
+        }
+      },
+      {
+        "file": "assets/House 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Classical Buildings/43663a03408238557285276f3cb31084710fdfabea33cca8c41297280f210775_House 1.glb",
+          "name": "House 1.glb"
+        }
+      },
+      {
+        "file": "assets/Birch Tree 5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Birch Tree 5.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/d7eb55b3b89a14f13eee8a48ad7c3127861961fa0b7a42aeaa9b2c2b1b7fae5e_Birch Tree 5.glb",
+          "name": "Birch Tree 5.glb"
+        }
+      },
+      {
+        "file": "assets/Resource Tree Group.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Resource Tree Group.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Fantasy RTS/Plant/6140ab3eec234bfeef7c948587f1b5ebbf59bec8251ccb237c3ae5e8b02bd543_Resource Tree Group.glb",
+          "name": "Resource Tree Group.glb"
+        }
+      },
+      {
+        "file": "assets/Car Hatchback.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Car Hatchback.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Builder/Vehicle/56a38d17aca7c359672723b9c16c5cf4a8fc8f6d2695490f141b2a39b6a0e4d1_Car Hatchback.glb",
+          "name": "Car Hatchback.glb"
+        }
+      },
+      {
+        "file": "assets/Van.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Van.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Cars/00d1b9a2b55f337f890464e8d42486bac328da0c5cdfc0be91c2c39c13be01d4_Van.glb",
+          "name": "Van.glb"
+        }
+      },
+      {
+        "file": "assets/Road Driveway Single.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Driveway Single.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/6abf0649f3f5da5d9f11553d1bfd6bbaaf2248923b89c97caa50114d621d3dc1_Road Driveway Single.glb",
+          "name": "Road Driveway Single.glb"
+        }
+      },
+      {
+        "file": "assets/Tile Low.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tile Low.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/7e308316ecf8a54b6f4e5fcfe6cee752ef2d12530683dab78822661f52c57f11_Tile Low.glb",
+          "name": "Tile Low.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Grass1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Grass1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/85be5683bde687f5ee621cb6af57e360aeb18d6f74b2a14db8eeb4cffe93251e_tiled_Grass1.png",
+          "name": "tiled_Grass1.png"
+        }
+      },
+      {
+        "file": "assets/Road Straight.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Straight.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/01e0d2aa154aaca671e074c6fb5f92e37a75cf9606a88e889a0a2b0934e64122_Road Straight.glb",
+          "name": "Road Straight.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Grass5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Grass5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/b6e9029f1fd48b677d55dda50e3dd47d5cff19b1635fe72be8f78599cc1dc5c0_tiled_Grass5.png",
+          "name": "tiled_Grass5.png"
+        }
+      },
+      {
+        "file": "assets/Mill.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Mill.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Medieval Village/Building/0af766c672e11607a28b8013f1252fa9d0b3e4b174520749822c8de172e4f895_Mill.glb",
+          "name": "Mill.glb"
+        }
       }
     ],
     "resourceFolders": []
