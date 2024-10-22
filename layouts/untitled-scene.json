@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.26364576737709616,
+    "zoomFactor": 0.27253598967731013,
     "windowMask": false
   },
   "objectsGroups": [
@@ -30,6 +30,42 @@
         },
         {
           "name": "BasicHouse"
+        },
+        {
+          "name": "park"
+        },
+        {
+          "name": "HouseMansion"
+        },
+        {
+          "name": "hospital"
+        },
+        {
+          "name": "House2"
+        },
+        {
+          "name": "parking"
+        },
+        {
+          "name": "Mill"
+        },
+        {
+          "name": "BuildingB"
+        },
+        {
+          "name": "HouseType18"
+        },
+        {
+          "name": "BellTower"
+        },
+        {
+          "name": "SolarPanelRoof"
+        },
+        {
+          "name": "Stones"
+        },
+        {
+          "name": "SkyscraperF"
         }
       ]
     }
@@ -138,6 +174,12 @@
                   "name": "score",
                   "type": "number",
                   "value": 3
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
                 }
               ]
             },
@@ -155,6 +197,12 @@
                   "name": "score",
                   "type": "number",
                   "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
                 }
               ]
             },
@@ -165,7 +213,291 @@
                   "folded": true,
                   "name": "name",
                   "type": "string",
-                  "value": "Ett kasino som lockar besökare men skapar sociala problem"
+                  "value": "Ett kasino"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -2
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Din stad behöver fler bostäder. Hur ser du till att de är hållbara och inkluderande?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg energieffektiva och prisvärda bostäder för alla."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg endast lyxbostäder i centrala områden."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg snabbt och billigt utan hänsyn till kvalitet eller tillgänglighet."
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -2
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Din stad behöver fler offentliga platser där invånarna kan mötas. Vad bygger du?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "En fritidsgård där unga och äldre kan samlas"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Ett köpcentrum för shopping och umgänge"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Ett kontor för fler arbetsplatser"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -1
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Din stad har ont om grönområden, hur hanterar du detta?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg en park"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Plantera några träd längs huvudgatorna"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Använd marken till fler parkeringsplatser istället"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": -2
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Din stad saknar tillgång till förnybar energi. Vad bygger du?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg en solcellspark för att producera ren energi"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg en vindkraftspark"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Bygg ett kolkraftverk för att snabbt lösa energibehovet"
                 },
                 {
                   "folded": true,
@@ -179,7 +511,53 @@
         },
         {
           "folded": true,
-          "name": "Din stad behöver fler bostäder. Hur ser du till att de är hållbara och inkluderande?",
+          "name": "Dina invånare börjar bli sjuka och behöver vård. vad gör du?",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "Du bygger ett sjukhus"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "name": "special",
+                  "type": "boolean",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "folded": true,
+                  "name": "name",
+                  "type": "string",
+                  "value": "ignorerar problemet"
+                },
+                {
+                  "folded": true,
+                  "name": "score",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fler transportsätt måste finnas för invånarna, vad prioriteras?",
           "type": "array",
           "children": [
             {
@@ -196,12 +574,6 @@
                   "name": "score",
                   "type": "number",
                   "value": 2
-                },
-                {
-                  "folded": true,
-                  "name": "special",
-                  "type": "boolean",
-                  "value": true
                 }
               ]
             },
@@ -242,297 +614,6 @@
           ]
         },
         {
-          "folded": true,
-          "name": "Din stad behöver fler offentliga platser där invånarna kan mötas. Vad bygger du?",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "En fritidsgård där unga och äldre kan samlas"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 3
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Ett köpcentrum för shopping och umgänge"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Ett kontor för fler arbetsplatser"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": -1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "name": "Din stad har ont om grönområden, hur hanterar du detta?",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Bygg en stor park i stadens centrum"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 3
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Plantera några träd längs huvudgatorna"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Använd marken till fler parkeringsplatser istället"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": -2
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "name": "Din stad saknar tillgång till förnybar energi. Vad bygger du?",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Bygg en solcellspark för att producera ren energi"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 3
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Bygg en vindkraftspark nära stadens utkanter"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 2
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Bygg ett kolkraftverk för att snabbt lösa energibehovet"
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": -2
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "name": "Dina invånare börjar bli sjuka och behöver vård. Vart väljer du att bygga sjukhuset?",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Du bygger sjukhuset vid en skog långt borta från alla dina invånare. "
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 0
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Du bygger sjukhuset ganska centralt, där alla bussar och hela kollektivtrafik når snabbt."
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 3
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Du bygger sjukhuset vid en industriområde där luftnivån är inte bra för dina invånare."
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": -1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "name": "Fler transportsätt måste finnas för invånarna, vad prioriteras?",
-          "type": "array",
-          "children": [
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Bygg endast lyxbostäder i centrala områden."
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Bygg energieffektiva och prisvärda bostäder för alla."
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": 3
-                }
-              ]
-            },
-            {
-              "type": "structure",
-              "children": [
-                {
-                  "folded": true,
-                  "name": "name",
-                  "type": "string",
-                  "value": "Bygg snabbt och billigt utan hänsyn till kvalitet eller tillgänglighet."
-                },
-                {
-                  "folded": true,
-                  "name": "score",
-                  "type": "number",
-                  "value": -1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
           "name": "Hur kan städer anpassa sig för att hantera klimatförändringar?",
           "type": "array",
           "children": [
@@ -650,6 +731,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "tmp",
       "type": "structure",
       "children": [
@@ -982,9 +1064,268 @@
       "name": "park",
       "persistentUuid": "6b082c07-70d7-45f0-9fe8-22f9e31272a8",
       "width": 300,
-      "x": 1052,
-      "y": 694,
+      "x": 1752,
+      "y": 994,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BasicHouse",
+      "persistentUuid": "d6b920e4-f8e8-4a67-94f6-8a324f2687b6",
+      "width": 0,
+      "x": 1350,
+      "y": 150,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HouseMansion",
+      "persistentUuid": "c6880adb-cb3a-4ae2-b3a9-4d56bd09ef04",
+      "width": 0,
+      "x": 1155,
+      "y": 461,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "befe3032-d3ee-4477-95ca-3c09e53363f8",
+      "width": 0,
+      "x": 1415,
+      "y": 586,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "f9ad0a15-a81d-46ec-8e36-e842e6ce7f52",
+      "width": 0,
+      "x": 1293,
+      "y": 588,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "74458d78-20d3-4ca9-a1b2-15956c52a912",
+      "width": 0,
+      "x": 1175,
+      "y": 587,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "dae7a9ec-ca9d-432c-bada-d5401ad48baa",
+      "width": 0,
+      "x": 1000,
+      "y": 588,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "4bc7d2eb-a023-4dbc-94c4-4b1eb9ef7ca1",
+      "width": 0,
+      "x": 795,
+      "y": 591,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "410ebb5b-9078-46cc-9c4d-94f5f5f4ae78",
+      "width": 0,
+      "x": 1500,
+      "y": 288,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "2d3aa104-d0d2-4fb4-b356-0bbbf49a22e8",
+      "width": 0,
+      "x": 1300,
+      "y": 290,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "a6ddca21-0bc2-4cf8-b0c7-b0415d027067",
+      "width": 0,
+      "x": 1073,
+      "y": 290,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "tree",
+      "persistentUuid": "92e2f084-5887-4468-9ffd-82b4ab02a1e3",
+      "width": 0,
+      "x": 800,
+      "y": 290,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 2,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "RoadStraight2",
+      "persistentUuid": "b3be79d7-d653-4ba5-bab5-aa44e6888d24",
+      "width": 216,
+      "x": 1342,
+      "y": 351,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 47,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "park",
+      "persistentUuid": "80092738-de5a-44f2-9942-e28de43d064d",
+      "width": 300,
+      "x": 1452,
+      "y": 991,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "BasicHouse",
+      "persistentUuid": "27856e72-4cda-498a-b3b4-31c328338931",
+      "width": 0,
+      "x": 750,
+      "y": 650,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "House2",
+      "persistentUuid": "806d6213-fcfb-4cb8-8b49-056bc18e000f",
+      "width": 0,
+      "x": 1150,
+      "y": 644,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 27.000000713207566,
+      "height": 30.000000792452852,
+      "keepRatio": true,
+      "layer": "road and house",
+      "name": "Van",
+      "persistentUuid": "f75be0dd-bed4-42e7-b325-1b73fe54d0fe",
+      "width": 53,
+      "x": 1300,
+      "y": 563,
+      "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1208,23 +1549,23 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 100,
           "leftMargin": 16,
           "rightMargin": 16,
           "texture": "Grey Button With Shadow_Hovered.png",
           "tiled": true,
           "topMargin": 16,
-          "width": 192
+          "width": 200
         },
         "Idle": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 100,
           "leftMargin": 16,
           "rightMargin": 16,
           "texture": "Grey Button With Shadow_Idle.png",
           "tiled": true,
           "topMargin": 16,
-          "width": 192
+          "width": 200
         },
         "Label": {
           "bold": false,
@@ -1263,13 +1604,13 @@
         },
         "Pressed": {
           "bottomMargin": 16,
-          "height": 69,
+          "height": 100,
           "leftMargin": 16,
           "rightMargin": 16,
           "texture": "Grey Button With Shadow_Pressed.png",
           "tiled": true,
           "topMargin": 16,
-          "width": 192
+          "width": 200
         }
       }
     },
@@ -1409,13 +1750,26 @@
       "assetStoreId": "efc4370ffaa9c58cdd169335fc9b8e59a18d87ecbd56c604d3c64763ee90a516",
       "name": "House2",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 80.30487808346751,
-        "height": 84.6497,
+        "depth": 89.08296641469005,
+        "height": 93.902694285512,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "House 2.glb",
@@ -1423,7 +1777,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 0,
-        "width": 99.99869652330875,
+        "width": 110.92950685560703,
         "animations": []
       }
     },
@@ -1431,7 +1785,22 @@
       "assetStoreId": "edb1e4c19dfe590ce2d1c1675e5c8ec467f72af3c17ad6430d1c423e0ff48ed7",
       "name": "hospital",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "persistentUuid": "edceb3dc-063c-4631-a276-9ff1c8512a64",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "persistentUuid": "3615ba01-8205-494b-a260-15ae5177c901",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -1453,13 +1822,26 @@
       "assetStoreId": "b1cf41511a76cbf9e17bdf92630a9d6b6b2f8117a9a339aa687d14a0dafa07d6",
       "name": "HouseMansion",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
         "depth": 98.06037428105626,
-        "height": 119.34665074570418,
+        "height": 78.85927170951601,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "House 1.glb",
@@ -1467,7 +1849,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 78.85927170951604,
+        "width": 119.34665074570415,
         "animations": []
       }
     },
@@ -1489,7 +1871,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": -90,
-        "width": 451,
+        "width": 40,
         "animations": []
       }
     },
@@ -1497,7 +1879,22 @@
       "assetStoreId": "269005e01ce3e16c3e695f797677e19c575d56d0a67a09f8c03140d377eb9e17",
       "name": "park",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "persistentUuid": "3ecf98be-8f49-401b-bffd-0c55d0414a77",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "persistentUuid": "6211f93f-b32d-4259-8883-9aea8c8517f1",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -1585,17 +1982,30 @@
       "assetStoreId": "addf80cdad80596f8eb0690b6240ade70efe84de1f0f2b44ff5f303bbc2f1e5f",
       "name": "parking",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
-        "centerLocation": "ObjectCenter",
+        "centerLocation": "ModelOrigin",
         "depth": 150,
         "height": 150,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Tile Low.glb",
-        "originLocation": "TopLeft",
+        "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 0,
@@ -1629,13 +2039,28 @@
       "assetStoreId": "74715faacda851af2c61ef1dda6d6c29d7041c37e634f132c47371d8237880b8",
       "name": "Mill",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "persistentUuid": "557a9410-c11f-4f22-9c3c-460f0b480277",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "persistentUuid": "38b38c24-1513-4a16-9341-0358c643e917",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 288,
-        "height": 288,
+        "depth": 148.69126087629795,
+        "height": 84.5262135670185,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Mill.glb",
@@ -1643,7 +2068,271 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 0,
-        "width": 288,
+        "width": 105.14056129360199,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "bbdd1d6c7d452e1847310eb327cddabe057cb893886f3a7a1af1c38e353eac92",
+      "name": "RoadStraight2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Road Straight.glb",
+        "originLocation": "TopLeft",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "7dbc0282499e7d61fda8b78376114d3993590d3840f6508058556a4eb0f10705",
+      "name": "BuildingB",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "persistentUuid": "38700346-b307-4fe4-a85d-560183bd9d6b",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "persistentUuid": "447db0ef-db06-4fb4-a1df-0f4f8802425e",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 82.49999284744266,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Building B.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "9bc62e769e822f19552a8cd6516b799a597aad1b54735ff80bb5e60ee00db206",
+      "name": "BellTower",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "persistentUuid": "a62b9aeb-b4b3-4ee8-9e11-101f0bf344ba",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "persistentUuid": "9760ccbe-6bd1-497a-bf46-e54bda22464e",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 245.78072919273376,
+        "height": 115.054,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Bell Tower.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100.0001021118164,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "aa285d8f7b2f23656af47f6b2ad39e879a39b7766cd4dc1656ab564a42bfb334",
+      "name": "SolarPanelRoof",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 211.06731414794922,
+        "height": 109.08102989196779,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Solar Panel Roof.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 4.66839074457e-313,
+        "width": 69.3359184265137,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c10c6b6255bc04581251bdb5b713c66a7b3dc1b2e7a2cc9c0f7a2546b9fd9c4b",
+      "name": "Stones",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "persistentUuid": "7d3f992a-0aac-4d60-92c5-51e8ee6d4935",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "persistentUuid": "5f4c2eaf-f4d3-4064-aa63-cc4bdc158ba6",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 49.92900000000003,
+        "height": 98.16576330000001,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "stones.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 88.49860096000003,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "64314bbba7ef671fbb11ee2429e6b5d4bee4423b6591a5b07681bc8efce656cb",
+      "name": "HouseType18",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "persistentUuid": "1affd2d4-4067-4a9f-bcdc-9b3b49233d54",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "persistentUuid": "0fd273c6-b89f-4ac8-b6c7-fa738bffb891",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 169,
+        "height": 169,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House Type 17.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 169,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "a06cc7886fd7207896b9fef476b83e1b96c09686ad14e4f3f83cfb8795fb59a7",
+      "name": "SkyscraperF",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsBeingPlaced",
+          "persistentUuid": "aaac5988-f240-462b-897a-1b130414c8ff",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsPlaced",
+          "persistentUuid": "a54a3e37-043e-444d-8d0b-f5eb191ad6db",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 326.3999938964844,
+        "height": 99.20000076293952,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Skyscraper F.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 99.20000076293945,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "b3ae5de8bd6ecd5b49a59d731ec53306489442968df0b5a54bec32bc9e285111",
+      "name": "SignBillboard",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 66.01499533653259,
+        "height": 3.0562501214444695,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Sign Billboard.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 24.450000971555728,
         "animations": []
       }
     }
@@ -1654,6 +2343,12 @@
       {
         "folderName": "misk",
         "children": [
+          {
+            "objectName": "SolarPanelRoof"
+          },
+          {
+            "objectName": "Mill"
+          },
           {
             "objectName": "Van"
           },
@@ -1672,6 +2367,15 @@
         "folderName": "house",
         "children": [
           {
+            "objectName": "SkyscraperF"
+          },
+          {
+            "objectName": "BellTower"
+          },
+          {
+            "objectName": "BuildingB"
+          },
+          {
             "objectName": "BasicHouse"
           },
           {
@@ -1682,6 +2386,9 @@
           },
           {
             "objectName": "House2"
+          },
+          {
+            "objectName": "HouseType18"
           }
         ]
       },
@@ -1690,6 +2397,9 @@
         "children": [
           {
             "objectName": "RoadStraight"
+          },
+          {
+            "objectName": "RoadStraight2"
           },
           {
             "objectName": "parking"
@@ -1736,7 +2446,10 @@
         "objectName": "OptionButton"
       },
       {
-        "objectName": "Mill"
+        "objectName": "Stones"
+      },
+      {
+        "objectName": "SignBillboard"
       }
     ]
   },
@@ -1766,7 +2479,32 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "tree"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Van"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RoadStraight2"
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -2018,7 +2756,17 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Tile",
+                "\"road and house\""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::JsCode",
@@ -2256,6 +3004,108 @@
               "parameters": [
                 "CurrentQuestion",
                 "=",
+                "\"Det finns brist på kultur och fritidsaktiviteter i din stad. Vad bygger du?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"BellTower\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"HouseType18\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"BuildingB\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
                 "\"Din stad behöver fler bostäder. Hur ser du till att de är hållbara och inkluderande?\""
               ]
             }
@@ -2285,6 +3135,108 @@
                   "parameters": [
                     "TileToBePlaced",
                     "=",
+                    "\"House2\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"HouseMansion\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"BasicHouse\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
+                "\"Din stad behöver fler offentliga platser där invånarna kan mötas. Vad bygger du?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
                     "\"BasicHouse\""
                   ]
                 }
@@ -2292,7 +3244,551 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"House2\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"HouseMansion\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
+                "\"Din stad har ont om grönområden, hur hanterar du detta?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"parking\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "tree",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"park\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
+                "\"Din stad saknar tillgång till förnybar energi. Vad bygger du?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"SkyscraperF\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"Mill\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"SolarPanelRoof\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
+                "\"Dina invånare börjar bli sjuka och behöver vård. vad gör du?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TileToBePlaced",
+                    "=",
+                    "\"hospital\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
+                "\"Fler transportsätt måste finnas för invånarna, vad prioriteras?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "RoadStraight2",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Van",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
+                "\"Hur kan städer anpassa sig för att hantera klimatförändringar?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentQuestion",
+                "=",
+                "\"Vad är FN mål 11 främst inriktat mot?\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "OptionButton",
+                    "OptionNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
               "actions": []
             }
           ]

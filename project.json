@@ -450,6 +450,83 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Medieval Village/Building/0af766c672e11607a28b8013f1252fa9d0b3e4b174520749822c8de172e4f895_Mill.glb",
           "name": "Mill.glb"
         }
+      },
+      {
+        "file": "assets/House Type 17.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House Type 17.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Suburban City/Building/a5997b2be28fa8ab6e7409f5c0c871ce152afdd7d1029d14864258f577d71dc7_House Type 17.glb",
+          "name": "House Type 17.glb"
+        }
+      },
+      {
+        "file": "assets/Building B.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Building B.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Builder/Building/72ea98449b67e302d0366c1ed1bdf5cf944acad0857b81908ff8fbcb2f630279_Building B.glb",
+          "name": "Building B.glb"
+        }
+      },
+      {
+        "file": "assets/Bell Tower.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bell Tower.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Medieval Village/Building/7f9d95a819caa965580a2fc576338492b9baeacf59787ee711b15241ccbbaf14_Bell Tower.glb",
+          "name": "Bell Tower.glb"
+        }
+      },
+      {
+        "file": "assets/Solar Panel Roof.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Solar Panel Roof.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Device/21483897cf77fda075fa6b5118af5dd542f4340ed5d24054018efe5dc971d34d_Solar Panel Roof.glb",
+          "name": "Solar Panel Roof.glb"
+        }
+      },
+      {
+        "file": "assets/stones.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "stones.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Mini Dungeon/Rock/139accb19c6fc14c1c6769240d9e9a9e7c1b5be2bccf327e5b1f1f7381fd52a9_stones.glb",
+          "name": "stones.glb"
+        }
+      },
+      {
+        "file": "assets/Skyscraper F.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Skyscraper F.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Commercial City/2f2a071baf584b040b0a442809865462b8cbe04f62370d8236687033384dc03e_Skyscraper F.glb",
+          "name": "Skyscraper F.glb"
+        }
+      },
+      {
+        "file": "assets/Sign Billboard.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Sign Billboard.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Commercial City/af3df3f1d1e11dc6f0b8d1c53e58e1fddf14fe0a961a1033ec5b2dc18fc10220_Sign Billboard.glb",
+          "name": "Sign Billboard.glb"
+        }
       }
     ],
     "resourceFolders": []
